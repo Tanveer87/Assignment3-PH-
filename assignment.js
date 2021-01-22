@@ -1,12 +1,11 @@
-
+// https://github.com/Tanveer87/Assignment3-PH-
 
 
 
 //--> PROBLEM 1
-
 function kilometerToMeter(kilometer){
     if(kilometer>=0){
-        var meter =(kilometer*1000);
+        var meter = kilometer*1000;
         return meter; 
     }
     else{
@@ -17,11 +16,7 @@ var result = kilometerToMeter(5);
 console.log(result);
 
 
-
-
-
 //--> PROBLEM 2
-
 function budgetCalculator(noOfWatch,noOfMobile,noOfLaptop){
     if (noOfWatch>=0 &&  (noOfMobile>=0 && noOfLaptop>=0)) {
         var watchPrice = noOfWatch*50;
@@ -39,10 +34,7 @@ var result = budgetCalculator(2,2,5);
 console.log(result);
 
 
-
-
 //--> PROBLEM 3
-
 function hotelCost(day){
     var totalCost = 0;
     if (day>0) {
@@ -71,10 +63,7 @@ var result = hotelCost(21);
 console.log(result);
 
 
-
-
 //--> PROBLEM 4
-
 function megaFriend(friends){
     var length=0;
     var maxLengthName = 0;
